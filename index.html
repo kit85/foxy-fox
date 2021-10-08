@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <!--css ska känna till html-->
+
+
+</head>
+
+<body>
+    <!--header-->
+    <header>
+        <img src="fox-logo 100px.png">
+        <!--lägga in bilder-->
+
+        <nav>
+            <ul>
+                 <!--punkt lista-->
+                <li><a href="#home">Home</a></li>
+                <li><a href="#image">Image</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--section 1-->
+    <section id="home">
+        <article>
+            <h1>Foxy Foxes</h1>
+            <h2>This site is dedicated to all the lonely foxes out there</h2>
+            <p>Lorem ipsum dolor sit amet ...</p>
+            <p>Arcu vel condimentum risus facilisis ...</p>
+            <p>Mauris accumsan, non magna vitae feugiat ipsum ...</p>
+            <p>Hendrerit taciti bibendum ipsum etiam amet ...</p>
+        </article>
+
+        <aside>
+
+            <header>
+                <h1>Author biography</h1>
+                <!--huvud rubrik-->
+            </header>
+
+            <section>
+                <p>Lorem ipsum dolor sit amet, lorem tellus egestas ...</p>
+            </section>
+            <img src="gingerbreadman-96px.png">
+        </aside>
+    </section>
+
+    <!-- section 2-->
+    <section id="images">
+        <h1>Foxy Images</h1>
+        <h2>Foxes in nature</h2>
+        <p>Lorem ipsum dolor sit amet ...</p>
+        <p>Arcu vel condimentum risus facilisis ...</p>
+        <p>Mauris accumsan, non magna vitae feugiat ipsum ...</p>
+        <p>Hendrerit taciti bibendum ipsum etiam amet ...</p>
+        <article>
+            <img src="red-fox-01.jpg">
+            <p>Sleeping Fox</p>
+            <!--skriver text under räven-->
+        </article>
+        <article>
+            <img src="red-fox-02.jpg">
+            <p>Resting Fox</p>
+        </article>
+        <article>
+            <img src="red-fox-03.jpg">
+            <P>Howling Fox</P>
+        </article>
+    </section>
+
+    <!--section 3-->
+    <section id="contact">
+        <article>
+            <h1>Contact</h1>
+            <!--form används för att skapa en skriv ruta-->
+            <form>
+                <label for="email">Email</label>
+                <!--skriver ut email-->
+                <br />
+                <input type="email" autofocus id="email" />
+                <!--gör en inmatning av email som äar fyrkant-->
+                <br>
+                <label for=" message">Message</label>
+                <!--skriv ut message-->
+                <br />
+                <textarea id="message"></textarea>
+                <!--skriver ut message-->
+                <br />
+                <input type="checkbox" checked id="updates" />
+                <!--kryssa i checkabox -->
+                <label for="updates">Send me email updates</label>
+                <!--skriver ut sen me email-->
+                <br />
+                <input type="submit" value="Send" />
+                <!--send knapp-->
+            </form>
+
+        </article>
+    </section>
+
+    <!--section 4-->
+    <section id="about">
+        <article>
+            <h1>About</h1>
+            <address>
+                <p>Foxes 'R' Us</p>
+                <p>Email: someone@foxesrus.com</p>
+                <p>Address: Somewhere street 1, some country</p>
+            </address>
+        </article>
+    </section>
+
+
+    <footer>&copy; 2015, All rights reserved</footer>
+    <!--stämpel-->
+
+
+</body>
+
+</html>

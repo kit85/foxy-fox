@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+body{
+  font-family: 'Open Sans', sans-serif;
+ 
+}
+/*allt som ligger inne i body, och det styla header */
+body > header{
+  background-color: #808080;
+  width:  100%; /* bredd*/
+  padding:  5px;
+  top: 0; /*att header klassen inte ska röra sig*/
+  position: fixed;
+  
+}
+/* allt som finns i body göra om storleken på header bild */
+body >header img{
+height: 50px; 
+}
+
+body >header nav{
+  float:right;   /* flytta hela punktlista till höger*/
+  margin-right: 20px;
+}
+
+body >header nav li{
+  float:left; /* flytta punktlista så att det stå i radvis*/
+  margin-right: 10px; /* ändra mellanrummet mellan punkten och texten inte sitter inne i texten*/ 
+  list-style: none; /*gör att punkter i punktlista bli osynligt*/
+  
+}
+
+/*när du har musen på knappen = hover*/
+body >header nav li a:hover {
+color: #f7f7f7; /* ger knapparna vit färg när du lägger musen där */
+text-decoration: none; /*ta bort understrek när du peka på tryck knapparna*/
+}
+
+body > header nav li a:hover{
+  color: rgba(235,139,6,1); /*ändra färgen på knappen till gul när man lägger musen där*/
+}
+
+body > section{
+  padding-top: 50px; /*gör texeten synligt*/
+  text-align: justify; /*allt text i mitten */
+}
+
+h1{
+  font-size: 24px; /*storlek på rubrik*/
+}
+h2{
+  font-size: 18px;
+}
+#home article{
+  width: 85%;
+  float: left; /*flytta home artikel till vänster*/
+}
+#home aside{
+  width:  10%; 
+  float: right;
+  padding: 0px 20px;
+  margin-top: 20px;
+  margin-right: 5px;
+  background-color:#2a2a2a;/* inåt i är svart text*/
+  color: #f7f7f7; /*texten är vit*/
+}
+#home article img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15;
+}
+#images{
+  clear: both;/*rensa båda sidor av elemntet*/
+}
+#images article{
+  text-align: center;/*gör att bilden ligger i mitten*/
+  max-width: 70%;
+}
+/*lägger kontakt uppgifter i mitten*/
+#contact{
+  margin: auto;
+  width: 205px;
+}
+/*flytta email i mitten*/
+#contact input[type='email'], #contact textarea{
+width: 205px;
+}
+
+#about{
+  text-align: center; /*lägger texten i mitten*/
+}
+
